@@ -1,0 +1,28 @@
+{
+    "router": [
+         {
+          "src": "/",
+          "dest":"/"
+         },
+
+         {
+          "src":"/books/create",
+          "dest": "/"
+         },
+
+         {
+         "src":"/books/details/:id",
+         "dest":"/"
+         },
+         
+         {
+         "src":"/books/edit/:id",
+         "dest":"/"
+         },
+         
+         {
+         "src":"/books/delete/:id",
+         "dest":"/"
+         } 
+    ]
+}
